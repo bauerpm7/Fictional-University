@@ -34,6 +34,7 @@ class Search {
     this.searchField.val('');
     setTimeout(()=>this.searchField.focus(), 300);
     this.isOverlayOpen = true;
+    return false;
   }
 
   closeOverlay() {
