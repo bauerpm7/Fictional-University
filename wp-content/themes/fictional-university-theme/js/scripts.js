@@ -7,9 +7,11 @@ import MobileMenu from './modules/MobileMenu';
 import HeroSlider from './modules/HeroSlider';
 import GoogleMaps from './modules/GoogleMap';
 import Search     from './modules/LiveSearch';
+import MyNotes    from './modules/MyNotes';
 
 // Instantiate a new object using our modules/classes
 var mobileMenu  = new MobileMenu();
 var heroSlider  = new HeroSlider();
 var googleMap   = new GoogleMaps();
 var search      = new Search();
+var myNotes     = new MyNotes();
